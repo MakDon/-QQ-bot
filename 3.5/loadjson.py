@@ -5,7 +5,7 @@ import json
 import requests
 
 def tuling(content):
-    toPost = { "key" : "87c0a2ff1e76486db23151c6d4174ac6" , "info" : content,"loc":"广州市","userid":"qqqun"}
+    toPost = { "key" : "enter_your_key_here" , "info" : content,"loc":"Your_city(optional)","userid":"qqqun"}
     r = requests.post("http://www.tuling123.com/openapi/api", data=toPost)
     replydata = r.json()
     #if r[code] == 100000 : return r[text]
