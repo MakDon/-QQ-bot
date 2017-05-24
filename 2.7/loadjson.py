@@ -162,5 +162,5 @@ class Roader:
           
 if __name__ == '__main__':
     roader = Roader()
-    re=roader.add_help('--admin 0 --addhelp 雪aaawadsd 也是偶像',True)
+    re=roader.add_help('--admin 0 --addhelp key value',True)
     print(re)
