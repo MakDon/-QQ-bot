@@ -46,12 +46,12 @@
 将四个文件放在同一目录下
 若需要使用图灵机器人，在loadjson内的tuling函数的key内，输入申请到的key
 ···bash
-sample1.py
+bot.py
 ···
 建议第一次登录时使用，可以看是否出错
 若是远程服务器使用ssh登录，应设定后台运行否在登出ssh后，会被结束进程
 ···bash
-nohup python sample1.py &
+nohup python bot.py &
 exit
 ···
 后台运行并使用nohup把输出控制台的信息输入到同目录下的文本，并且在登出后继续运行

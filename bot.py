@@ -15,10 +15,10 @@ roader = loadjson.Roader()
 
 #the Commands
 def commands(bot,contact,member,content,permit,type=99):
-    global contenttype
-    #refresh the help dict and chat dict
-    if '--refresh' in content:
-        if not permit[0]:reply = "permission denied"
+    global availtime
+    global bot_avil 
+    global tulingbot
+    global contenttype    if not permit[0]:reply = "permission denied"
         else : reply = roader.refresh()
         bot.SendTo(contact,reply)
         contenttype = type
