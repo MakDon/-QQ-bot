@@ -18,7 +18,8 @@ def commands(bot,contact,member,content,permit,type=99):
     global availtime
     global bot_avil 
     global tulingbot
-    global contenttype    if not permit[0]:reply = "permission denied"
+    global contenttype    
+    if not permit[0]:reply = "permission denied"
         else : reply = roader.refresh()
         bot.SendTo(contact,reply)
         contenttype = type
@@ -113,6 +114,8 @@ def commands(bot,contact,member,content,permit,type=99):
 
 @qqbotslot
 def onQQMessage(bot, contact, member, content):
+    if bot.isMe(contact, member):
+        return None
     global availtime#record the time after which the bot can work
     global bot_avil #record if the bot is avail(record if the bot is not stopped)
     global tulingbot#record if the TulingBot is on
