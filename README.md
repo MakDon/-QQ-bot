@@ -1,4 +1,4 @@
-此QQ机器人基于[此项目](https://github.com/pandolia/qqbot)扩展
+此QQ机器人基于[此项目](https://github.com/pandolia/qqbot)扩展。由于 [Smart QQ](https://web2.qq.com) 已于 2019 年 1 月 3 日停止服务，改项目同样不可用。
 
 ## 使用场景
 原意是用于高考后招新答疑，对于重复的问题可以直接调用机器人回答避免反复的键入。实际上emmmmmmmm
